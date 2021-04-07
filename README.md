@@ -1,5 +1,3 @@
-#.env
-
 PORT=3000
 
 DISCORD_TOKEN=""
