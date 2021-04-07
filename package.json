@@ -1,0 +1,45 @@
+{
+  "name": "unhandled-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Unhandled Exception Club server",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "server",
+    "unhandled",
+    "exception"
+  ],
+  "author": "kudretdavudoff",
+  "license": "MIT",
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 100,
+    "tabWidth": 2,
+    "semi": false
+  },
+  "dependencies": {
+    "@distube/ytdl": "^2.0.5",
+    "axios": "^0.21.1",
+    "discord-ytdl-core": "^5.0.2",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ffmpeg-static": "^4.2.8",
+    "figlet": "^1.5.0",
+    "opusscript": "^0.0.8",
+    "text2png": "^2.3.0",
+    "ytdl-core": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/figlet": "^1.2.1",
+    "@types/node": "^14.14.35",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.3"
+  }
+}

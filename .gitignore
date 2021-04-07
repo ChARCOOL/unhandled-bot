@@ -1,0 +1,13 @@
+*.lock
+*.pem
+.DS_Store
+.pnp
+.pnp.js
+build
+coverage
+generated
+node_modules
+npm*
+out
+yarn*
+.env*
